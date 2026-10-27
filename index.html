@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Little World ♡</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 35px 16px;
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: linear-gradient(135deg, #fff0f5, #f2edff, #e8f7ff);
+      color: #66566e;
+    }
+
+    .card {
+      max-width: 720px;
+      margin: auto;
+      padding: 35px 25px;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 30px;
+      box-shadow: 0 10px 35px #d9c8e855;
+      text-align: center;
+    }
+
+    .flower {
+      font-size: 42px;
+    }
+
+    h1 {
+      color: #d77da5;
+      font-size: 34px;
+      margin: 10px 0;
+    }
+
+    .subtitle {
+      color: #a38bb8;
+      font-size: 15px;
+    }
+
+    .avatar {
+      width: 125px;
+      height: 125px;
+      margin: 25px auto;
+      border-radius: 50%;
+      background: #ffe0ed;
+      border: 5px solid #f8c6dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 55px;
+    }
+
+    section {
+      background: #fff7fb;
+      padding: 22px;
+      border-radius: 22px;
+      margin-top: 22px;
+      text-align: left;
+    }
+
+    section h2 {
+      color: #c77ca4;
+      font-size: 21px;
+      margin-top: 0;
+    }
+
+    section p {
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: #f0e7ff;
+      color: #8e70aa;
+      padding: 9px 13px;
+      border-radius: 30px;
+      font-size: 14px;
+    }
+
+    .song {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 13px;
+      margin-top: 12px;
+      background: white;
+      border: 1px solid #f4dceb;
+      border-radius: 17px;
+    }
+
+    .song-icon {
+      font-size: 27px;
+    }
+
+    .song-info {
+      flex: 1;
+    }
+
+    .song-info strong {
+      display: block;
+      color: #9d6da6;
+      font-size: 14px;
+    }
+
+    .song-info small {
+      display: block;
+      color: #ae9aaf;
+      margin-top: 5px;
+    }
+
+    .listen {
+      display: inline-block;
+      background: #f7dce9;
+      color: #a45f87;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 9px 11px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    .listen:hover {
+      background: #eadcff;
+    }
+
+    footer {
+      margin-top: 28px;
+      color: #b39dbb;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 25px 15px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      .song {
+        gap: 8px;
+        padding: 10px;
+      }
+
+      .listen {
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+
+    <div class="flower">🌷</div>
+
+    <h1>My Little World ♡</h1>
+    <p class="subtitle">a little space filled with lovely things ✨</p>
+
+    <div class="avatar">🐰</div>
+
+    <section>
+      <h2>🌸 About Me</h2>
+      <p>
+        Mình là một người thích khám phá những điều mới mẻ,
+        tận hưởng những khoảnh khắc nhỏ bé và lưu giữ
+        những điều khiến mình hạnh phúc.
+      </p>
+    </section>
+
+    <section>
+      <h2>🎀 My Hobbies</h2>
+      <div class="tags">
+        <span class="tag">🎧 Nghe nhạc</span>
+        <span class="tag">📚 Đọc sách</span>
+        <span class="tag">☕ Đi cà phê</span>
+        <span class="tag">📸 Chụp ảnh</span>
+        <span class="tag">🌷 Khám phá điều mới</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>🎧 Music I Love</h2>
+      <p>
+        Âm nhạc là một phần nhỏ nhưng rất đáng yêu
+        trong thế giới của mình. Đặc biệt là TWS ♡
+      </p>
+
+      <div class="song">
+        <div class="song-icon">🩵</div>
+        <div class="song-info">
+          <strong>plot twist</strong>
+          <small>TWS · Sparkling Blue</small>
+        </div>
+        <a class="listen"
+           href="https://www.youtube.com/results?search_query=TWS+plot+twist+official+MV"
+           target="_blank" rel="noopener noreferrer">▶ Nghe</a>
+      </div>
+
+      <div class="song">
+        <div class="song-icon">🌈</div>
+        <div class="song-info">
+          <strong>hey! hey!</strong>
+          <small>TWS · SUMMER BEAT!</small>
+        </div>
+        <a class="listen"
+           href="https://www.youtube.com/results?search_query=TWS+hey+hey+official+MV"
+           target="_blank" rel="noopener noreferrer">▶ Nghe</a>
+      </div>
+
+      <div class="song">
+        <div class="song-icon">💗</div>
+        <div class="song-info">
+          <strong>If I'm S, Can You Be My N?</strong>
+          <small>TWS · SUMMER BEAT!</small>
+        </div>
+        <a class="listen"
+           href="https://www.youtube.com/results?search_query=TWS+If+Im+S+Can+You+Be+My+N+official"
+           target="_blank" rel="noopener noreferrer">▶ Nghe</a>
+      </div>
+
+      <div class="song">
+        <div class="song-icon">🧸</div>
+        <div class="song-info">
+          <strong>BFF</strong>
+          <small>TWS · Sparkling Blue</small>
+        </div>
+        <a class="listen"
+           href="https://www.youtube.com/results?search_query=TWS+BFF+official+audio"
+           target="_blank" rel="noopener noreferrer">▶ Nghe</a>
+      </div>
+
+      <div class="song">
+        <div class="song-icon">💜</div>
+        <div class="song-info">
+          <strong>OVERDRIVE</strong>
+          <small>TWS · play hard</small>
+        </div>
+        <a class="listen"
+           href="https://www.youtube.com/results?search_query=TWS+OVERDRIVE+official+MV"
+           target="_blank" rel="noopener noreferrer">▶ Nghe</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>💗 My Dreams</h2>
+      <p>
+        Mình muốn học thêm nhiều kỹ năng mới,
+        phát triển bản thân và tạo nên những điều
+        thật đẹp theo cách riêng của mình.
+      </p>
+    </section>
+
+    <footer>
+      Made with ♡ and TWS music 🎧
+    </footer>
+
+  </main>
+</body>
+</html>
